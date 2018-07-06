@@ -1,11 +1,8 @@
-# Object Relations Code Challenge
+# Python Object Relations Assessment 
 
-For this assignment, we'll be working with a Yelp-style domain. We have three models - `Restaurant`, `Customer`, and `Review`.
-For our purposes, a `Restaurant` has many `Reviews`, a `Customer` has many `Reviews`, and a `Review` belongs to a `Customer` and to a `Restaurant`.
-`Restaurant` - `Customer` is a many to many relationship.
+For this assignment, we'll be working with a Yelp-style domain. We have three models - `Restaurant`, `Customer`, and `Review`.  For our purposes, a `Restaurant` is connected to a `Customer` only if that customer writes a review about the restaurant.  
 
-If you are not sketching out your domain, and thinking about single source of truth,
-you are doing it wrong :(
+If you are not sketching out your domain, and thinking about single source of truth, you are doing it wrong :(
 
 ## Topics
 
@@ -16,9 +13,9 @@ you are doing it wrong :(
 
 ## Notes
 
-Your goal is to build out all of the methods listed in the deliverables. Do your best to follow Ruby best practices. For example, use higher-level array methods such as `map`, `select`, and `find` when appropriate in place of `each`
+Your goal is to build out all of the methods listed in the deliverables.
 
-We've provided you with a console that you can use to test your code. To enter a console session, run `ruby tools/console.rb`. You'll be able to test out the methods that you write here. Take a look at that file to see how you can pre-define variables and create object instances, rather than manually doing it in every single console session.
+Remember that to run your code, you can run `python -i environment.rb`.  You'll be able to test out the methods that you write from there. Take a look at that file to see how you can pre-define variables and create object instances, rather than manually doing it each time.
 
 **To Submit** - once you've completed all the deliverables, please copy/paste your three class definitions into the `solution.rb` file. Please don't submit the lab until we give you the signal.
 
@@ -49,7 +46,7 @@ Build out the following methods on the `Review` class
 Build out the following methods on the `Restaurant` class
 
 * Restaurant.all()
-  * returns an array of all restaurants
+  * returns a list of all restaurants
 * Restaurant.find_by_name(name)
   * given a string of restaurant name, returns the first restaurant that matches
 * Restaurant#reviews
