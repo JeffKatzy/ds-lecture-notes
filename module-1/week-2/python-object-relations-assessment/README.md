@@ -1,8 +1,10 @@
-# Python Object Relations Assessment 
+# Python Object Relations Assessment
 
 For this assignment, we'll be working with a Yelp-style domain. We have three models - `Restaurant`, `Customer`, and `Review`.  For our purposes, a `Restaurant` is connected to a `Customer` only if that customer writes a review about the restaurant.  
 
 If you are not sketching out your domain, and thinking about single source of truth, you are doing it wrong :(
+
+You can read about how to submit the assignment at the end.  
 
 ## Topics
 
@@ -53,3 +55,14 @@ Build out the following methods on the `Restaurant` class
   * returns an array of all reviews for that restaurant
 * Restaurant#customers
   * returns all of customers who have written reviews of that restaurant. A `Restaurant` has many `Customers` and a `Customer` has many `Restaurants`
+
+### Submitting your code challenge
+
+We'll be submitting the form using the gist gem.  The gist gem allows you to quickly make and get a link to a short github repository. 
+
+1. Place all of your code in `solution.py`
+2. Install gist, by going to your terminal and typing `gem install gist` or `brew install gist`.
+3. From the folder of your assessment, type into the terminal `gist solution.py`
+4. (Optional) If you need to login with your credentials, simply run `gist --login`, and then when logged in type `gist solution.py` into your terminal again.
+5. Running `gist solution` will return a link to your gist.  
+6. Go to [this google form](https://goo.gl/forms/0N1QJpzqrHtOGo462), and enter your name and a link to the gist.
