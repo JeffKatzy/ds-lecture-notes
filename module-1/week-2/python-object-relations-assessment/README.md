@@ -17,9 +17,9 @@ You can read about how to submit the assignment at the end.
 
 Your goal is to build out all of the methods listed in the deliverables.
 
-Remember that to run your code, you can run `python -i environment.rb`.  You'll be able to test out the methods that you write from there. Take a look at that file to see how you can pre-define variables and create object instances, rather than manually doing it each time.
+Remember that to run your code, you can run `python -i environment.py`.  You'll be able to test out the methods that you write from there. Take a look at that file to see how you can pre-define variables and create object instances, rather than manually doing it each time.
 
-**To Submit** - once you've completed all the deliverables, please copy/paste your three class definitions into the `solution.rb` file. Please don't submit the lab until we give you the signal.
+**To Submit** - once you've completed all the deliverables, please copy/paste your three class definitions into the `solution.py` file. Please don't submit the lab until we give you the signal.
 
 ## Deliverables
 
@@ -58,7 +58,7 @@ Build out the following methods on the `Restaurant` class
 
 ### Submitting your code challenge
 
-We'll be submitting the form using the gist gem.  The gist gem allows you to quickly make and get a link to a short github repository. 
+We'll be submitting the form using the gist gem.  The gist gem allows you to quickly make and get a link to a short github repository.
 
 1. Place all of your code in `solution.py`
 2. Install gist, by going to your terminal and typing `gem install gist` or `brew install gist`.
